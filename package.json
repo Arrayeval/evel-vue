@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Arrayeval/evel-vue/issues"
   },
-  "homepage": "https://github.com/Arrayeval/evel-vue#readme"
+  "homepage": "https://github.com/Arrayeval/evel-vue#readme",
+  "devDependencies": {
+    "webpack": "^4.32.2"
+  }
 }

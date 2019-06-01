@@ -1,5 +1,5 @@
-// import SelfVue from "evel-vue"
-import SelfVue from "../vu-coding/index.js"
+import SelfVue from "evel-vue"
+// import SelfVue from "../vu-coding/index.js"
 new SelfVue({
   el: '#app',
   data: {
