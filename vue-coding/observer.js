@@ -8,7 +8,7 @@ function defineReactive (data, key, val) {
     configurable: true,
     get: function () {
       if (Dep.target) {
-        dep.addSub(Dep.target) //  在这里添加一个订阅者
+        dep.addSub(Dep.target) //  在这里添加一个订阅者, target就是一个watcher对象
       }
       return val
     },
